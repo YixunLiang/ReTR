@@ -5,14 +5,14 @@
 ## [Project Page](https://yixunliang.github.io/ReTR/) |  [Paper](https://arxiv.org/pdf/2305.18832.pdf)
 
 >**Abstract:**
-Generalizable neural surface reconstruction techniques have attracted great attention in recent years. However, they encounter limitations of low confidence depth distribution and inaccurate surface reasoning due to the oversimplified volume rendering process employed. In this paper, we present Reconstruction TRansformer (ReTR), a novel framework that leverages the transformer architecture to redesign the rendering process, enabling complex photon-particle interaction modeling. It introduces a learnable meta-ray token and utilizes the cross-attention mechanism to simulate the interaction of photons with sampled points and render the observed color. Meanwhile, by operating within a high-dimensional feature space rather than the color space, ReTR mitigates sensitivity to projected colors in source views. Such improvements result in accurate surface assessment with high confidence. We demonstrate the effectiveness of our approach on various datasets, showcasing how our method outperforms the current state-of-the-art approaches in terms of reconstruction quality and generalization ability. 
+Generalizable neural surface reconstruction techniques have attracted great attention in recent years. However, they encounter limitations of low confidence depth distribution and inaccurate surface reasoning due to the oversimplified volume rendering process employed. In this paper, we present Reconstruction TRansformer (ReTR), a novel framework that leverages the transformer architecture to redesign the rendering process, enabling complex render interaction modeling. It introduces a learnable meta-ray token and utilizes the cross-attention mechanism to simulate the interaction of rendering process with sampled points and render the observed color. Meanwhile, by operating within a high-dimensional feature space rather than the color space, ReTR mitigates sensitivity to projected colors in source views. Such improvements result in accurate surface assessment with high confidence. We demonstrate the effectiveness of our approach on various datasets, showcasing how our method outperforms the current state-of-the-art approaches in terms of reconstruction quality and generalization ability. 
 
 
 ## Overview
 <img width="1161" alt="pipeline" src="https://github.com/YixunLiang/ReTR/assets/99460842/715e4c3c-6237-443c-9747-16b425fdf52b">
 
 ## Note
-> <font color='red'>We will change our title following the commends from reviewers and ACs, the name in the camera ready version will be: 'ReTR: Modeling Rendering via Transformer for
+<font color='red'>We will change our title following the commends from reviewers and ACs, the name in the camera ready version will be: 'ReTR: Modeling Rendering via Transformer for
 Generalizable Neural Surface Reconstruction' </font> 
 
 
