@@ -1,6 +1,6 @@
 # ReTR
 
-> Code of paper 'Rethinking Rendering in Generalizable Neural Surface Reconstruction: A Learning-based Solution' (NeurIPS 2023)
+> Code of paper 'ReTR: Modeling Rendering Via Transformer for Generalizable Neural Surface Reconstruction' (NeurIPS 2023)
 
 ## [Project Page](https://yixunliang.github.io/ReTR/) |  [Paper](https://arxiv.org/pdf/2305.18832.pdf)
 
@@ -82,8 +82,8 @@ bash eval_dtu_result.sh        ## Get the quantitative results
 If you find this project useful for your research, please cite: 
 
 ```
-@misc{liang2023rethinking,
-  title={Rethinking Rendering in Generalizable Neural Surface Reconstruction: A Learning-based Solution},
+@misc{liang2023ReTR,
+  title={ReTR: Modeling Rendering Via Transformer for Generalizable Neural Surface Reconstruction},
   author={Liang, Yixun and He, Hao and Chen, Ying-cong},
   journal={arXiv preprint arXiv:2305.18832},
   year={2023}
